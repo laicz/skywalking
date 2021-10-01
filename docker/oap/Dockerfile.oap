@@ -124,6 +124,6 @@ COPY docker-entrypoint.sh .
 RUN mkdir ext-config; \
     mkdir ext-libs;
 
-EXPOSE 12800 11800 1234
+EXPOSE 12800 11800
 
 ENTRYPOINT ["sh", "docker-entrypoint.sh"]
